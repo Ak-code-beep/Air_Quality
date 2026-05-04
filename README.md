@@ -1,16 +1,16 @@
 # Air Quality Prediction System - Bhopal
-Overview
+## Overview
 An end-to-end data pipeline for air quality forecasting using real-world CPCB pollution data and meteorological analysis for Bhopal, India.
 Project Details
 Duration: November 2024 - Present (analyzing historical 2019-2023 data + 2024 validation)
 Objectives
 
-Forecast air quality trends using time-series modeling
+## Forecast air quality trends using time-series modeling
 Identify pollution patterns and seasonal variations
 Correlate meteorological factors with pollutant dispersion
 Build a scalable, reproducible data pipeline
 
-Dataset
+## Dataset
 Air Quality Data
 
 Source: Central Pollution Control Board (CPCB)
@@ -21,7 +21,7 @@ Resolution: Daily aggregated values
 Pollutants Tracked:
 
 PM2.5 (Fine Particulate Matter)
-PM10 (Coarse Particulate Matter)
+*PM10 (Coarse Particulate Matter)
 NO₂ (Nitrogen Dioxide)
 O₃ (Ozone)
 CO (Carbon Monoxide)
