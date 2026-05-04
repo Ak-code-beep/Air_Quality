@@ -1,4 +1,4 @@
-#Air Quality Prediction System - Bhopal
+# Air Quality Prediction System - Bhopal
 Overview
 An end-to-end data pipeline for air quality forecasting using real-world CPCB pollution data and meteorological analysis for Bhopal, India.
 Project Details
