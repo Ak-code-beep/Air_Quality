@@ -13,23 +13,23 @@ Build a scalable, reproducible data pipeline
 ## Dataset
 Air Quality Data
 
-Source: Central Pollution Control Board (CPCB)
-Historical Data: 5 years (2019-2023) with daily frequency
-Historical Records: 1,826+ daily measurements
-Validation Data: 2024 actual measurements for comparison and model validation
-Resolution: Daily aggregated values
-Pollutants Tracked:
+Source: Central Pollution Control Board (CPCB) \n
+Historical Data: 5 years (2019-2023) with daily frequency \n
+Historical Records: 1,826+ daily measurements \n
+Validation Data: 2024 actual measurements for comparison and model validation \n
+Resolution: Daily aggregated values \n
 
-PM2.5 (Fine Particulate Matter)
-*PM10 (Coarse Particulate Matter)
-NO₂ (Nitrogen Dioxide)
-O₃ (Ozone)
-CO (Carbon Monoxide)
+## Pollutants Tracked:
+PM2.5 (Fine Particulate Matter) \n 
+PM10 (Coarse Particulate Matter) \n
+NO₂ (Nitrogen Dioxide) \n
+O₃ (Ozone) \n
+CO (Carbon Monoxide) \n
 SO₂ (Sulfur Dioxide)
 
 
 
-Meteorological Data
+## Meteorological Data
 
 Source: NOAA ISD (Integrated Surface Database)
 Station: Raja Bhoj Airport (Station 42667)
@@ -95,7 +95,7 @@ WRPLOT View (wind rose analysis)
 AERMOD (dispersion modeling framework)
 Jupyter Notebooks
 
-Project Structure
+```
 Air Quality Prediction System/
 ├── data/
 │   ├── raw_cpcb_data.csv
@@ -118,8 +118,7 @@ Air Quality Prediction System/
 ├── reports/
 │   └── Air_Quality_Presentation.pptx
 └── README.md
-Pipeline Workflow
-
+```
 Data Ingestion: Fetch CPCB and NOAA ISD data
 Cleaning: Remove duplicates, handle missing values, validate ranges
 Feature Engineering: Create temporal and meteorological features
